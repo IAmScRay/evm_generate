@@ -83,13 +83,6 @@ def main():
         end_color="000000"
     )
 
-    border = Border(
-        left=Side(style="medium"),
-        right=Side(style="medium"),
-        top=Side(style="medium"),
-        bottom=Side(style="medium")
-    )
-
     C1.alignment = B1.alignment = A1.alignment = Alignment(
         horizontal="center",
         vertical="center"
